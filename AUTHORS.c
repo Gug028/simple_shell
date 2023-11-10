@@ -1,3 +1,3 @@
-# This file lists all contributors to the repository
+contributor to the repository
 
-Gugulethu R. Mthembu <gramthembu@gmail.com>
+Gugulethu Mthembu <gramthembu@gmail.com>
