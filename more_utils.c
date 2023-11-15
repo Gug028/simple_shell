@@ -111,7 +111,7 @@ int _1exit(char *status __attribute__((unused)), int c, char *a, char **ag)
 		{
 			if (!(status[j] > 47 && status[j] < 58))
 			{
-				_perrore(a, c, ag[0], ag[1]);
+				_perror(a, c, ag[0], ag[1]);
 				ex_code = 2;
 				return (500);
 			}
