@@ -1,3 +1,3 @@
-This file contains the contributor of the repository
+This ALX simple shell projct was created by:
 
 Gugulethu Mthembu <gramthembu@gmail.com>

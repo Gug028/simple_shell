@@ -36,7 +36,7 @@ int alias_command(char *argv[MAX_ARGS], int num_arg __attribute__((unused)))
 	if (num_arg == 1)
 	{
 		for (alias = aliases; alias; alias = alias->next)
-			print_list(alias);
+			print_alias(alias);
 		return (1);
 	}
 	for (m = 1; m < num_arg; m++)

@@ -17,7 +17,7 @@ void cd(char *path)
 	{
 		if (chdir(home) == -1)
 		{
-			perroe("cd");
+			perror("cd");
 			return;
 		}
 		setenv("OLDPWD", pwd, 1);

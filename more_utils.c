@@ -18,7 +18,7 @@ void remove_trailing_and_leading_spaces(char *str)
 		str[len] = '\0';
 	}
 	/* Find the starting position after removing trailing spaces */
-	while (str[strart] == ' ')
+	while (str[start] == ' ')
 		start++;
 
 	/* Shift the string to remove leading spaces */

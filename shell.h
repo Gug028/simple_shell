@@ -118,7 +118,7 @@ typedef struct alias_s
 void init_aliases(alias_t **aliases);
 int alias_command(char *argv[MAX_ARGS], int num_arg __attribute__((unused)));
 char *_strchr(const char *str, int character);
-void print_alias(alias_t, *alias);
+void print_alias(alias_t *alias);
 void set_alias(alias_t **aliases, char *name, char *value);
 void print_all_aliases(alias_t *aliases);
 void _execve(char *c, char **p, char **r);

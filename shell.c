@@ -1,7 +1,7 @@
 #include "shell.h"
 #include <string.h>
 
-void handle_segfault(int sgno __attribut__((unused)));
+void handle_segfault(int signo __attribute__((unused)));
 
 int ex_code = 0;
 
@@ -14,7 +14,7 @@ int ex_code = 0;
  */
 int main(int ac __attribute__((unused)), char **av __attribute__((unused)))
 {
-	char *__attribute__ ((unused)) cmd1, *cmd_copy == NULL;
+	char *__attribute__ ((unused)) cmd1, *cmd_copy = NULL;
 	char *argv[MAX_ARGS], *ar[MAX_ARGS];
 
 	int __attribute__ ((unused)) num_arg, r, count = 0;
@@ -94,7 +94,7 @@ void remwspaces(char *s)
 	o = 0;
 	while (m <= n)
 	{
-		s[0++] = s[m++];
+		s[o++] = s[m++];
 	}
 	s[0] = '\0';
 	p = 0;
